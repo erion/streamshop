@@ -1,0 +1,28 @@
+#app .header {
+    display:flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+#app .header .center {
+    width: 200px;
+    margin: auto;
+}
+
+#app .header .center h1 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#app .header .center .mat-icon {
+    font-size: 40px;
+    margin-right:5px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;    
+}

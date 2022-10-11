@@ -1,0 +1,11 @@
+<div id="event-detail">
+    <div class="header">
+        <img mat-card-image 
+                src="https://ingresso-a.akamaihd.net/prd/img/movie/duna/509b75e4-2826-47aa-8a6e-127873685961.jpg"
+                alt="Duna">
+    </div>
+    <h3>Duna</h3>
+    <div *ngFor="let event of events">
+        <app-cinema [event]="event"></app-cinema>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+#event-detail {
+    width:80%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+#event-detail .header {
+    display:flex;
+}
+
+#event-detail .header img {
+    width: 150px;
+    height: 200px;
+    margin:10px auto 0 auto;
+}
+
+#event-detail .header h3 {
+    width: 100%;
+}

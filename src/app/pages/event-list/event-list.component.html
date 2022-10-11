@@ -1,0 +1,14 @@
+<div id="search">
+    <form class="form">
+        <mat-form-field class="full-width" appearance="fill">
+        <input matInput placeholder="Pesquisar" value="">
+        </mat-form-field>
+    </form>
+</div>
+<div id="event-list">
+    <div class="event-list">
+        <div class="item" *ngFor="let event of events">
+            <app-movie-card [movie]="event"></app-movie-card>
+        </div>
+    </div>
+</div>

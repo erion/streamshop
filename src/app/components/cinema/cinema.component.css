@@ -1,0 +1,20 @@
+#cinema-component {margin: 10px 0;}
+#cinema-component .mat-card{
+    background-color: #F1F3F4;
+}
+
+#cinema-component .mat-card .mat-card-title{
+    display: flex;
+    align-items: center;
+}
+#cinema-component .mat-card .rooms {
+    display: inline-block;
+    margin-top: 5px;
+}
+#cinema-component .mat-card .mat-card-title .mat-icon {margin-right: 5px;}
+#cinema-component .mat-card .mat-card-actions {margin-bottom: 0;}
+
+#cinema-component button {border:1px solid;}
+
+#cinema-component .orange {color: #F9A662;}
+#cinema-component .blue {color: #77A0D0;}

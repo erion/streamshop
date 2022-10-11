@@ -1,0 +1,26 @@
+#event-list {background-color: #F1F3F4;}
+
+@media screen and (min-width: 480px) {
+    #event-list .event-list {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and not (max-width: 480px) {
+    #event-list .event-list {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+    }
+}
+
+#event-list .event-list .item {display: inline-grid;}
+#search .form {
+    margin: 10px;
+    min-width: 150px;
+    width: 100%;
+}
+  
+#search .full-width {
+    width: 98.5%;
+}

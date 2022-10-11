@@ -1,0 +1,33 @@
+#movie-card {
+    margin: 1em;
+}
+
+#movie-card img {
+    width: 85px;
+    height: 120px;
+    margin: auto;
+}
+
+#movie-card button {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#movie-card .mat-card {min-width: 130px;}
+#movie-card .mat-card-title {
+    margin-top: 10px;
+    font-size:16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 120px;    
+}
+#movie-card .mat-card-subtitle {
+    margin-bottom: 0px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 120px;    
+}

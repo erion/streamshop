@@ -1,0 +1,21 @@
+<div id="cinema-component">
+    <mat-card>
+        <mat-card-title>
+            <mat-icon class="orange">favorite_border</mat-icon>
+            {{event.name}}
+        </mat-card-title>
+        <mat-card-subtitle>
+            {{event.address}}
+            <span *ngIf="event.addressComplement">- {{event.addressComplement}}</span>
+        </mat-card-subtitle>
+        <mat-divider></mat-divider>
+        <div class="rooms" *ngFor="let room of event.rooms">
+            <b>{{room.name}}</b> - <span class="orange">{{room.types | arrayToString}}</span>
+            <mat-card-actions class="blue">
+                <div *ngFor="let session of room.sessions">
+                    <button mat-button>{{session.time}}</button>
+                </div>
+            </mat-card-actions>
+        </div>
+    </mat-card>
+</div>
